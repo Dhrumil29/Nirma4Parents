@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bhailoo.navoproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Start_Screen"
+            android:label="@string/title_activity_start__screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Admin_Activity"
+            android:label="@string/title_activity_admin_" >
+        </activity>
+        <activity
+            android:name=".Activity_faculty"
+            android:label="@string/title_activity_activity_faculty" >
+        </activity>
+        <activity
+            android:name=".Attendance_Parents"
+            android:label="@string/title_activity_attendance__parents" >
+        </activity>
+        <activity
+            android:name=".Result_table"
+            android:label="@string/title_activity_result_table" >
+        </activity>
+        <activity
+            android:name=".parents_review"
+            android:label="@string/title_activity_parents_review" >
+        </activity>
+        <activity
+            android:name=".parents_suggestion"
+            android:label="@string/title_activity_parents_suggestion" >
+        </activity>
+        <activity
+            android:name=".Admin_Result_Insert"
+            android:label="@string/title_activity_admin__result__insert" >
+        </activity>
+    </application>
+
+</manifest>
